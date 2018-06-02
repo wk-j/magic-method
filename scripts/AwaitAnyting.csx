@@ -1,5 +1,5 @@
 #! "netcoreapp2.0"
-#r "../src/MagicMethod/obj/Debug/netcoreapp2.1/MagicMethod.dll"
+#r "../src/MagicMethod/obj/Debug/netstandard2.0/MagicMethod.dll"
 
 using MagicMethod;
 
