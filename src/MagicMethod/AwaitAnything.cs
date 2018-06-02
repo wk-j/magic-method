@@ -11,7 +11,7 @@ namespace MagicMethod {
     public class Awaiter<T> : INotifyCompletion {
         private string value;
         public Awaiter(T val) {
-            value = val.ToString();
+            value = val.ToString() + " 555";
         }
 
         public bool IsCompleted { get { return true; } }
